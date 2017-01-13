@@ -16,6 +16,7 @@
         <h1 id="title-h1">Welcome to the Epicodus Track Suggester Quiz!</h1>
         <p id="title-p">Please submit your name and answer the questions below to find out which Epicodus track may interest you most. <br><span id="bold">You must select true once, and only once!</span></p>
       </div>
+
 <!--name entry-->
       <form>
         <div class="form-group">
@@ -26,31 +27,46 @@
 <!--question-1-->
         <div class="form-group">
           <label for="question1">True or false: You'd like to work with Android and can see yourself at an enterprise-level company.</label>
-          <input id="question1" class="form-control" type="boolean">
+          <select id="question1">
+            <option value="true">True</option>
+            <option value="false">False</option>
+          </select>
         </div>
 
 <!--question 2-->
         <div class="form-group">
           <label for="question2">True or false: You want to learn how to build interactive web apps, and would love to work in a smaller startup environment.</label>
-          <input id="question2" class="form-control" type="boolean">
+          <select id="question2">
+            <option value="true">True</option>
+            <option value="false">False</option>
+          </select>
         </div>
 
 <!--question 3-->
         <div class="form-group">
           <label for="question3">True or false: You can see yourself building internal software for large, established businesses.</label>
-          <input id="question3" class="form-control" type="boolean">
+          <select id="question3">
+            <option value="true">True</option>
+            <option value="false">False</option>
+          </select>
         </div>
 
 <!--question 4-->
         <div class="form-group">
           <label for="question4">True or false: You would love to build content-heavy websites for clients as local as Portland restaurants, or as large as the U.S. Federal Government!</label>
-          <input id="question4" class="form-control" type="boolean">
+          <select id="question4">
+            <option value="true">True</option>
+            <option value="false">False</option>
+          </select>
         </div>
 
 <!--question 5-->
         <div class="form-group">
           <label for="question5">True or false: You love obsessing over the minute details of a site's UI, such as layout, colors, font, and images!</label>
-          <input id="question5" class="form-control" type="boolean">
+          <select id="question5">
+            <option value="true">True</option>
+            <option value="false">False</option>
+          </select>
         </div>
 
 <!--button-->
@@ -59,11 +75,11 @@
 
 <!--end of form, output hidden until user submits-->
       <div id="results">
-        <p id="results-Java">Congratulations <span id="results-name"></span> , your suggested track is Java. Click <a href="https://www.epicodus.com/java" target="_blank">here</a> to read more about Java on the Epicodus site!</p>
-        <p id="results-Ruby">Congratulations <span id="results-name"></span> , your suggested track is Ruby. Click <a href="https://www.epicodus.com/ruby" target="_blank">here</a> to read more about Ruby on the Epicodus site!</p>
-        <p id="results-C">Congratulations <span id="results-name"></span> , your suggested track is C#. Click <a href="https://www.epicodus.com/c-sharp" target="_blank">here</a> to read more about C# on the Epicodus site!</p>
-        <p id="results-PHP">Congratulations <span id="results-name"></span> , your suggested track is PHP. Click <a href="https://www.epicodus.com/php" target="_blank">here</a> to read more about PHP on the Epicodus site!</p>
-        <p id="results-Design">Congratulations <span id="results-name"></span> , your suggested track is Design. Click <a href="#">here</a> to read more about front-end development!</p>
+        <p id="results-Java">Congratulations <span id="results-name"></span>, your suggested track is Java. Click <a href="https://www.epicodus.com/java" target="_blank">here</a> to read more about Java on the Epicodus site!</p>
+        <p id="results-Ruby">Congratulations <span id="results-name"></span>, your suggested track is Ruby. Click <a href="https://www.epicodus.com/ruby" target="_blank">here</a> to read more about Ruby on the Epicodus site!</p>
+        <p id="results-C">Congratulations <span id="results-name"></span>, your suggested track is C#. Click <a href="https://www.epicodus.com/c-sharp" target="_blank">here</a> to read more about C# on the Epicodus site!</p>
+        <p id="results-PHP">Congratulations <span id="results-name"></span>, your suggested track is PHP. Click <a href="https://www.epicodus.com/php" target="_blank">here</a> to read more about PHP on the Epicodus site!</p>
+        <p id="results-Design">Congratulations <span id="results-name"></span>, your suggested track is design. Click <a href="https://www.epicodus.com/design">here</a> to read more about web design on the Epicodus site!</p>
       </div>
     </div>
   </body>
