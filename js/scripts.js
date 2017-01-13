@@ -9,22 +9,49 @@ $(document).ready(function() {
     var question5 = $("select#question5").val();
 
     if (question1 === "true") {
-      $("#results-Java").fadeToggle();
+
+      $("#results-Ruby").hide();
+      $("#results-C").hide();
+      $("#results-PHP").hide();
+      $("#results-Design").hide();
+      $("#results-Java").show();
 
     } else if (question2 === "true") {
-      $("#results-Ruby").fadeToggle();
+
+      $("#results-Java").hide();
+      $("#results-C").hide();
+      $("#results-PHP").hide();
+      $("#results-Design").hide();
+      $("#results-Ruby").show();
 
     } else if (question3 === "true") {
-      $("#results-C").fadeToggle();
+
+      $("#results-Java").hide();
+      $("#results-Ruby").hide();
+      $("#results-PHP").hide();
+      $("#results-Design").hide();
+      $("#results-C").show();
 
     } else if (question4 === "true") {
-      $("#results-PHP").fadeToggle();
+
+      $("#results-C").hide();
+      $("#results-Java").hide();
+      $("#results-Ruby").hide();
+      $("#results-Design").hide();
+      $("#results-PHP").show();
 
     } else if (question5 === "true") {
-      $("#results-Design").fadeToggle();
+
+      $("#results-Java").hide();
+      $("#results-Ruby").hide();
+      $("#results-C").hide();
+      $("#results-PHP").hide();
+      $("#results-Design").show();
+
     }
 
-    $("#results-name").text(nameInput);
+    $(".results-name").text(nameInput);
+
     event.preventDefault();
   });
 });
