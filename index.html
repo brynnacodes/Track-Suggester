@@ -11,7 +11,7 @@
   <body>
     <div class="container">
       <h1 class="header">Welcome to the Epicodus Track Suggester Quiz!</h1>
-      <p class="header">Please submit your name and answer the questions below to find out which Epicodus track may interest you most. You may be suggested more than one track, depending on your answers!</p>
+      <p class="header">Please submit your name and answer the questions below to find out which Epicodus track may interest you most. <strong>You may only select true once!</strong></p>
 
 <!--name entry-->
       <form>
@@ -21,38 +21,40 @@
         </div>
 <!--question-1-->
         <div class="form-group">
-          <label for="question1">Answer true or false</label>
+          <label for="question1">True or false: You'd like to work with Android and can see yourself at an enterprise-level company.</label>
           <input id="question1" class="form-control" type="boolean">
         </div>
 <!--question 2-->
         <div class="form-group">
-          <label for="question2">Answer true or false</label>
+          <label for="question2">True or false: You want to learn how to build interactive web apps, and would love to work in a smaller startup environment.</label>
           <input id="question2" class="form-control" type="boolean">
         </div>
 <!--question 3-->
         <div class="form-group">
-          <label for="question3">Answer true or false</label>
+          <label for="question3">True or false: You can see yourself building internal software for large, established businesses.</label>
           <input id="question3" class="form-control" type="boolean">
         </div>
 <!--question 4-->
         <div class="form-group">
-          <label for="question4">Answer true or false</label>
+          <label for="question4">True or false: You would love to build content-heavy websites for clients as local as Portland restaurants, or as large as the U.S. Federal Government!</label>
           <input id="question4" class="form-control" type="boolean">
         </div>
 <!--question 5-->
         <div class="form-group">
-          <label for="question5">Answer true or false</label>
+          <label for="question5">True or false: You love obsessing over the minute details of a site's UI, such as layout, colors, font, and images!</label>
           <input id="question5" class="form-control" type="boolean">
         </div>
 <!--button-->
         <button type="submit" class="btn">Calculate Results!</button>
       </form>
-      
+
 <!--end of form, output hidden until user submits-->
       <div id="results">
         <p id="results-Java">Congratulations <span id="results-name"></span> , your suggested track is Java. You may enjoy this.</p>
         <p id="results-Ruby">Congratulations <span id="results-name"></span> , your suggested track is Ruby. You may enjoy this.</p>
         <p id="results-C">Congratulations <span id="results-name"></span> , your suggested track is C#. You may enjoy this.</p>
+        <p id="results-PHP">Congratulations <span id="results-name"></span> , your suggested track is PHP. You may enjoy this.</p>
+        <p id="results-Design">Congratulations <span id="results-name"></span> , your suggested track is Design. You may enjoy this.</p>
       </div>
     </div>
   </body>
