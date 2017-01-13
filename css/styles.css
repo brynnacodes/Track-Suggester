@@ -10,7 +10,14 @@ button {
 margin: 20px;
 }
 
-#results {
+#results-Java {
   display: none;
-  margin: 20px;
+}
+
+#results-Ruby {
+  display: none;
+}
+
+#results-C {
+  display: none;
 }
