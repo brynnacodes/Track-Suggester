@@ -6,6 +6,11 @@ body {
   text-align: center;
 }
 
-/*#results {
+button {
+margin: 20px;
+}
+
+#results {
   display: none;
-}*/
+  margin: 20px;
+}
