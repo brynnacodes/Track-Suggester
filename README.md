@@ -5,7 +5,8 @@
 #### By Brynna Klamkin-McCarter
 
 ## Description
-A simple true/false quiz to help students select a language track at Epicodus. This webpage is an exercise in how to use JavaScript and Jquery to manipulate the DOM to return values based on user input.
+
+A simple true/false quiz to help students select a language track at Epicodus. This webpage is an exercise in how to use JavaScript and jQuery to manipulate the DOM to return values based on user input.
 
 ## Setup/Installation Requirements
 

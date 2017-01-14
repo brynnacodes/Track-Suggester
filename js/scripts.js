@@ -51,7 +51,6 @@ $(document).ready(function() {
     }
 
     $(".results-name").text(nameInput);
-
     event.preventDefault();
   });
 });

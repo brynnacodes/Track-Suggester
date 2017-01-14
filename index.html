@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Epicodus Track Suggester</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -14,19 +15,19 @@
     <div class="container">
       <div class="header">
         <h1 id="title-h1">Welcome to the Epicodus Track Suggester Quiz!</h1>
-        <p id="title-p">Please submit your name and answer the questions below to find out which Epicodus track may interest you most. <br><span id="bold">You must select true once, and only once!</span></p>
+        <p id="title-p">Please submit your name and answer the questions below to find out which Epicodus track may interest you most. <br><span id="important">You must select true once, and only once!</span></p>
       </div>
 
 <!--name entry-->
       <form>
         <div class="form-group">
           <label for="name">Enter your name:</label>
-          <input id="name" class="form-control" type="text">
+          <input id="name" type="text">
         </div>
 
 <!--question-1-->
         <div class="form-group">
-          <label for="question1">True or false: You'd like to work with Android and can see yourself at an enterprise-level company.</label>
+          <label for="question1">1. True or false: You'd like to work with Android and can see yourself at an enterprise-level company.</label>
           <select id="question1">
             <option value="true">True</option>
             <option value="false">False</option>
@@ -35,7 +36,7 @@
 
 <!--question 2-->
         <div class="form-group">
-          <label for="question2">True or false: You want to learn how to build interactive web apps, and would love to work in a smaller startup environment.</label>
+          <label for="question2">2. True or false: You want to learn how to build interactive web apps, and would love to work in a smaller startup environment.</label>
           <select id="question2">
             <option value="true">True</option>
             <option value="false">False</option>
@@ -44,7 +45,7 @@
 
 <!--question 3-->
         <div class="form-group">
-          <label for="question3">True or false: You can see yourself building internal software for large, established businesses.</label>
+          <label for="question3">3. True or false: You can see yourself building internal software for large, established businesses.</label>
           <select id="question3">
             <option value="true">True</option>
             <option value="false">False</option>
@@ -53,7 +54,7 @@
 
 <!--question 4-->
         <div class="form-group">
-          <label for="question4">True or false: You'd love to build content-heavy websites for local as Portland restaurants, or even work for Facebook!</label>
+          <label for="question4">4. True or false: You'd love to build content-heavy websites for local as Portland restaurants, or even work for Facebook!</label>
           <select id="question4">
             <option value="true">True</option>
             <option value="false">False</option>
@@ -62,7 +63,7 @@
 
 <!--question 5-->
         <div class="form-group">
-          <label for="question5">True or false: You love obsessing over the minute details of a site's UI, such as layout, colors, font, and images.</label>
+          <label for="question5">5. True or false: You love obsessing over the minute details of a site's UI, such as layout, colors, font, and images.</label>
           <select id="question5">
             <option value="true">True</option>
             <option value="false">False</option>
@@ -70,7 +71,7 @@
         </div>
 
 <!--button-->
-        <button type="submit" class="btn">Calculate Results!</button>
+        <button type="submit" class="btn">See Your Results!</button>
       </form>
 
 <!--end of form, output hidden until user submits-->
